@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:seashell;
+}
+header, main, footer {
+    /*background-color: black;*/
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+header nav{
+    background-color: turquoise;
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+    }
+
+    header nav ul li a{
+        padding:10px 20px;
+        display: block;
+        color: white;
+        text-decoration: none;
+    }
+    header nav ul li a:hover{
+        background-color: rgb(145, 235, 235);
+        color: red;
+    }
+        
+    section{
+        width: 50%;
+        background-color: rosybrown;
+        float: left;
+        margin: 1%;
+    }
+    aside{
+        width: 30%;
+        float: left;
+        box-sizing: border-box;
+        background-color:white;
+        padding: 20px;
+        height: 100vh;
+        margin-top: 1%
+    }
+    aside h3{
+        text-align: center;
+    }
+    article{
+        padding: 20px;
+        background-color: white;
+        margin-bottom: 20px
+    }
+    footer{
+        width: 96%;
+        background-color: black;
+        color: white;
+        padding: 10px align;
+        clear: both;
+        text-align: center;
+    }
+    figure{
+        padding: 30px;
+    }
+
+    .fondo1{
+        background-image: url(../img/gatito5.jpg);
+        background-size: cover;
+        background-repeat: none;
+        background-position: center;
+    }
